@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1300px) {
+     .info {display: none;}
+     .navbar {padding: 0px 20px;}
+    .host-banner article .banner-text{width: 38%;}
+   }
+
+@media only screen and (max-width: 800px) {
+    .info {display: none;}
+    .navbar {padding: 0px;}
+   .search-text{width: 80%;top: 50%; left: 6%;}
+   .explore article .item {width: 212px;}
+   .host-banner article .banner-text{width: 60%;}
+   .discover .item {width: 100%;}
+  .live-anywhere .item{width: 45%;}
+  .search {width: 540px;}
+  .search input{width: 175px;}
+  .map-box{display: none;}
+  .results {
+   overflow: unset !important;
+   width: 100%;
+   scroll-behavior: unset !important;
+   overflow-y: unset !important;
+}
+
+.search button {width: 25px; height: 25px; top: 16px;}
+
+  }
+
+
+  
+@media only screen and (max-width: 500px) {  
+   .navbar .info {display: none;}
+   .navbar {padding: 0px;}
+  .search {width: 300px;}
+  .search input{width: 85px; font-size: 9px;}
+  .map-box{display: none;}
+  .results {
+   overflow: unset !important;
+   width: 100%;
+   scroll-behavior: unset !important;
+   overflow-y: unset !important;
+}
+  }

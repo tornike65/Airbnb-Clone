@@ -1,0 +1,461 @@
+body{
+    position: relative;
+}
+.s{
+    margin: 40px 0px;
+}
+
+.banner{
+    width: 100%;
+    height: 780px;
+    background-image: url("https://a0.muscache.com/im/pictures/57b9f708-bb12-498c-bc33-769f8fc43e63.jpg?im_w=2560");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position : bottom;
+    object-fit: cover;
+    position: relative;
+}
+
+.navbar{
+    padding: 0px 150px;
+    height: 80px;
+    background-color: #FFFFFF;
+    box-shadow: rgb(0 0 0 / 10%) 0px 1px 0px !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.logo{
+    width: 100px;
+}
+
+.search{
+    display: flex;
+    position: relative;
+    width: 660px;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 8%), 0px 4px 12px rgb(0 0 0 / 5%) !important;
+    border-radius: 40px;
+    border: 1px solid #DDDDDD !important;
+    color: black;
+    padding: 5px 0px;
+}
+
+.search input{
+    width: 200px;
+    height: 50px;
+    border:none;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-right: 1px solid #DDDDDD;
+
+}
+
+.search input:last-child{
+    border: none;
+}
+
+.search button{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    right: 5px;
+    top: 10px;
+    position: absolute;
+    align-items: center;
+}
+
+.search input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info div{
+    margin: 0px 10px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding: 0px 7px;
+    border-radius: 20px;
+}
+
+.info .btn{
+    width: 90px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+}
+
+.info div:hover{
+    background-color: rgb(206, 206, 206);
+  
+ transition: all 1s;
+}
+
+.search-text{
+    width: 20%;
+    margin: auto;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+}
+.search-text div{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.search-text button{
+    width: 200px;
+    background: #fff;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 6px 16px rgb(0 0 0 / 12%) !important;
+    color: #920190;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.explore{
+    margin-bottom: 40px;
+}
+
+.explore article{
+    width: 90%;
+    margin: auto;
+}
+
+.explore article h1{
+    margin: 25px 0px;
+}
+
+.item-lists{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+
+.explore article .item{
+    max-height: 64px;
+    width: 388px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.item p {
+    color: black;
+    margin-bottom: 5px;
+}
+
+.explore .text-info{
+    height: 64px;
+    padding: 10px 15px;
+}
+
+.explore .item img{
+    width: 64px;
+    border-radius: 5px;
+}
+
+.live-anywhere .item{
+    width: 20%;    
+}
+
+.live-anywhere img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.live-anywhere .item-lists {
+    margin-top: 30px;
+}
+
+.live-anywhere .item p{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.host-banner{
+    height: 480px;
+}
+
+.host-banner article img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    object-fit: cover;
+}
+
+.host-banner article .banner-text{
+    position: absolute;
+    top: 37%;
+    left: 8%;
+    color: #FFFFFF;
+    width: 19%;
+}
+
+.host-banner article .banner-text p {
+  margin: 20px 0px;
+}
+
+.host-banner article .banner-text button{
+    background-color: #fff;
+     color: black;
+     font-weight: 600;
+     border-radius: 5px;
+}
+
+.discover .item{
+    width: 550px;
+}
+
+.discover img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #F7F7F7;
+    border-top: 1px solid #DDDDDD !important;
+}
+
+footer article {
+    padding: 40px 0px;
+}
+
+footer article ul {
+    list-style: none;
+    padding: 0px;
+}
+
+footer article ul li {
+    padding: 7px 0px;
+    font-weight: 300;
+}
+
+.col-md-3{
+    font-weight: 700;
+}
+
+.search-results{
+    display: flex;
+}
+
+aside {
+    width: 50%;
+    height: 500px;
+}
+
+.results{
+    padding: 50px 20px;
+}
+
+.filter{
+    margin: 25px 0px;
+}
+
+.fbtn{
+    cursor: pointer !important;
+    text-align: center !important;
+    border: 1px solid rgb(176, 176, 176) !important;
+    background-color: rgb(255, 255, 255) !important;
+    outline: none !important;
+    margin: 0px !important;
+    border-radius: 30px !important;
+    color: rgb(34, 34, 34) !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    position: relative !important;
+    padding: 8px 16px !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+}
+
+.card{
+    padding: 25px 0px;
+    border: none;
+    border-top: 1px solid #DDDDDD
+}
+
+
+.col-md-4 img{
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.price-star{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-star i {color: #FF5A5F;}
+
+aside{
+    height: 855px;
+}
+
+.marker {
+    background-image: url('../assets/map-marker-icon.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    columns: red;
+  }
+
+
+  .mapboxgl-popup {
+    max-width: 200px;
+  }
+  
+  .mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  /* .loader{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #DDDDDD;
+      z-index: 100;
+      display: none;
+  } */
+
+  .spinner-border{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    display: none;
+    top: 30%;
+    left: 42%;
+    z-index: 100;
+  }
+
+i{
+    margin: 0px 10px;
+    color: #FF5A5F;
+}
+
+i span{
+    color: #222222;
+    font-weight: 300;
+}
+
+.place-info{
+    margin: 20px 0px;
+}
+
+.place-offer div{ 
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.place-offer span {
+    margin-left: 5px;
+}
+
+.place-offer div i{
+    margin: 10px;
+}
+
+.reservation{
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+    width: 30%;
+    margin: auto;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reservation input{
+    height: 56px !important;
+    width: 100% !important;
+    border: 1px solid #222222;
+    outline: none !important;
+    margin: 0px !important;
+    padding: 26px 12px 10px !important;
+    background-color: transparent !important;
+    color: inherit !important;
+    font-family: inherit !important;
+    font-size: 14px !important;
+    font-weight: inherit !important;
+    line-height: 18px !important;
+    appearance: none !important;
+    cursor: pointer !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important
+}
+
+.reservation button{
+    cursor: pointer !important;
+    display: inline-block !important;
+    position: relative !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    touch-action: manipulation !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    outline: none !important;
+    padding: 14px 24px !important;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s !important;
+    -webkit-tap-highlight-color: transparent !important;
+    border: none !important;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%) !important;
+    color: rgb(255, 255, 255) !important;
+    width: 100% !important;
+    margin-top: 30px;
+}
+
+.detail-btn{
+    width: 45%;
+    margin: 25px auto;
+    background-color: #FF5A5F;
+    color: #ffff;
+    padding: 12px 70px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+.sp{
+    position: absolute;
+    top: 79px;
+    bottom: 618px;
+    left: 0px;
+    right: 0px;
+    background-color: #fff;
+    z-index: 100;
+     display: none;
+}
